@@ -1,0 +1,39 @@
+{
+  "name": "fceda",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.45.1",
+    "react-native-emoji": "^1.2.0",
+    "react-native-firebase": "^2.0.2",
+    "react-native-htmlview": "^0.10.0",
+    "react-native-modalbox": "^1.4.0",
+    "react-native-navigation": "^1.1.134",
+    "react-native-onesignal": "^3.0.4",
+    "react-native-parallax-scroll-view": "^0.19.0",
+    "react-native-svg-uri": "^1.2.0",
+    "react-native-table-row": "0.0.4",
+    "react-native-tableview-simple": "^0.16.6",
+    "react-native-vector-icons": "^4.2.0",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.1",
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.1.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "15.6.1",
+    "remote-redux-devtools": "^0.5.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
